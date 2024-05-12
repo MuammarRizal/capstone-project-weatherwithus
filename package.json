@@ -5,7 +5,7 @@
   "main": "script.js",
   "scripts": {
     "server": "http-server .",
-    "build": "webpack --config webpack.prod.js",
+    "build": "webpack --config webpack.prod.js --output public",
     "start-dev": "webpack serve --config webpack.dev.js"
   },
   "repository": {
